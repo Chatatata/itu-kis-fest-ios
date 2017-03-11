@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/efeconirulez/itu-kis-fest-ios/master/Media/Logo.png)
+<img src="Media/Logo.png" width="300px"/>
 
 # ITU Winter Fest
 ITU Winter Fest iOS Application with Swift.
