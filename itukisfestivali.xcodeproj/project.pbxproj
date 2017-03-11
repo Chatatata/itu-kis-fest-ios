@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278FBD0B1DC0FBBA00C73C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD0A1DC0FBBA00C73C89 /* AppDelegate.swift */; };
+		278FBD0D1DC0FBBA00C73C89 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD0C1DC0FBBA00C73C89 /* MainPageViewController.swift */; };
+		278FBD101DC0FBBA00C73C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD0E1DC0FBBA00C73C89 /* Main.storyboard */; };
+		278FBD121DC0FBBA00C73C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD111DC0FBBA00C73C89 /* Assets.xcassets */; };
+		278FBD151DC0FBBA00C73C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD131DC0FBBA00C73C89 /* LaunchScreen.storyboard */; };
+		278FBD211DC1054600C73C89 /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD201DC1054600C73C89 /* EventsCollectionViewCell.swift */; };
+		278FBD331DC105E600C73C89 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD291DC105E600C73C89 /* OpenSans-Light.ttf */; };
+		278FBD351DC105E600C73C89 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD2B1DC105E600C73C89 /* OpenSans-Regular.ttf */; };
+		278FBD361DC105E600C73C89 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD2C1DC105E600C73C89 /* OpenSans-Semibold.ttf */; };
+		278FBD391DC105FC00C73C89 /* ScrollPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD381DC105FC00C73C89 /* ScrollPager.swift */; };
+		278FBD3F1DC1379B00C73C89 /* EventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD3E1DC1379B00C73C89 /* EventCollectionViewCell.xib */; };
+		278FBD411DC143BD00C73C89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD401DC143BD00C73C89 /* Constants.swift */; };
+		278FBD441DC148DF00C73C89 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD431DC148DF00C73C89 /* Event.swift */; };
+		278FBD461DC151A000C73C89 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD451DC151A000C73C89 /* Helper.swift */; };
+		278FBD491DC1588700C73C89 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD471DC1588700C73C89 /* NotificationTableViewCell.swift */; };
+		278FBD4A1DC1588700C73C89 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD481DC1588700C73C89 /* NotificationTableViewCell.xib */; };
+		278FBD4F1DC1708600C73C89 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD4D1DC1708600C73C89 /* GalleryCollectionViewCell.swift */; };
+		278FBD501DC1708600C73C89 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278FBD4E1DC1708600C73C89 /* GalleryCollectionViewCell.xib */; };
+		278FBD521DC1763700C73C89 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FBD511DC1763700C73C89 /* ImageViewController.swift */; };
+		27A7D7A51E2BF83D0081131A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27A7D7A41E2BF83D0081131A /* GoogleService-Info.plist */; };
+		27FB87AB1E252A38006C7729 /* DeveloperInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB87AA1E252A38006C7729 /* DeveloperInfoViewController.swift */; };
+		3C889453BB0492A6F8663EB6 /* Pods_itukisfestivali.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977B3808BB8F17AEBC70773F /* Pods_itukisfestivali.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F20D22E982C6ACF8B77B088 /* Pods-itukisfestivali.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itukisfestivali.debug.xcconfig"; path = "Pods/Target Support Files/Pods-itukisfestivali/Pods-itukisfestivali.debug.xcconfig"; sourceTree = "<group>"; };
+		278FBD071DC0FBBA00C73C89 /* itukisfestivali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itukisfestivali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278FBD0A1DC0FBBA00C73C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		278FBD0C1DC0FBBA00C73C89 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		278FBD0F1DC0FBBA00C73C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		278FBD111DC0FBBA00C73C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		278FBD141DC0FBBA00C73C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		278FBD161DC0FBBA00C73C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278FBD201DC1054600C73C89 /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewCell.swift; sourceTree = "<group>"; };
+		278FBD291DC105E600C73C89 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		278FBD2B1DC105E600C73C89 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		278FBD2C1DC105E600C73C89 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		278FBD381DC105FC00C73C89 /* ScrollPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollPager.swift; sourceTree = "<group>"; };
+		278FBD3E1DC1379B00C73C89 /* EventCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCollectionViewCell.xib; sourceTree = "<group>"; };
+		278FBD401DC143BD00C73C89 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		278FBD431DC148DF00C73C89 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		278FBD451DC151A000C73C89 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		278FBD471DC1588700C73C89 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		278FBD481DC1588700C73C89 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		278FBD4D1DC1708600C73C89 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		278FBD4E1DC1708600C73C89 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		278FBD511DC1763700C73C89 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		27A7D7A31E2BEEF30081131A /* itukisfestivali.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = itukisfestivali.entitlements; sourceTree = "<group>"; };
+		27A7D7A41E2BF83D0081131A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27FB87AA1E252A38006C7729 /* DeveloperInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperInfoViewController.swift; sourceTree = "<group>"; };
+		96575E53CBE457CD1ABE7951 /* Pods-itukisfestivali.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itukisfestivali.release.xcconfig"; path = "Pods/Target Support Files/Pods-itukisfestivali/Pods-itukisfestivali.release.xcconfig"; sourceTree = "<group>"; };
+		977B3808BB8F17AEBC70773F /* Pods_itukisfestivali.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itukisfestivali.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278FBD041DC0FBBA00C73C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C889453BB0492A6F8663EB6 /* Pods_itukisfestivali.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278FBCFE1DC0FBBA00C73C89 = {
+			isa = PBXGroup;
+			children = (
+				278FBD231DC105CD00C73C89 /* Fonts */,
+				278FBD091DC0FBBA00C73C89 /* itukisfestivali */,
+				278FBD081DC0FBBA00C73C89 /* Products */,
+				A28C74A31ABF942A5241CEF8 /* Pods */,
+				EA59A07DFBD69AA3BF1A6482 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		278FBD081DC0FBBA00C73C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278FBD071DC0FBBA00C73C89 /* itukisfestivali.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278FBD091DC0FBBA00C73C89 /* itukisfestivali */ = {
+			isa = PBXGroup;
+			children = (
+				27A7D7A31E2BEEF30081131A /* itukisfestivali.entitlements */,
+				278FBD421DC148BF00C73C89 /* Models */,
+				278FBD221DC1054A00C73C89 /* Cells */,
+				278FBD1F1DC1051D00C73C89 /* View Controllers */,
+				278FBD1E1DC1051800C73C89 /* Xibs */,
+				278FBD0A1DC0FBBA00C73C89 /* AppDelegate.swift */,
+				278FBD0E1DC0FBBA00C73C89 /* Main.storyboard */,
+				278FBD111DC0FBBA00C73C89 /* Assets.xcassets */,
+				27A7D7A41E2BF83D0081131A /* GoogleService-Info.plist */,
+				278FBD381DC105FC00C73C89 /* ScrollPager.swift */,
+				278FBD131DC0FBBA00C73C89 /* LaunchScreen.storyboard */,
+				278FBD161DC0FBBA00C73C89 /* Info.plist */,
+				278FBD401DC143BD00C73C89 /* Constants.swift */,
+				278FBD451DC151A000C73C89 /* Helper.swift */,
+			);
+			path = itukisfestivali;
+			sourceTree = "<group>";
+		};
+		278FBD1E1DC1051800C73C89 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				278FBD4E1DC1708600C73C89 /* GalleryCollectionViewCell.xib */,
+				278FBD481DC1588700C73C89 /* NotificationTableViewCell.xib */,
+				278FBD3E1DC1379B00C73C89 /* EventCollectionViewCell.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		278FBD1F1DC1051D00C73C89 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				278FBD0C1DC0FBBA00C73C89 /* MainPageViewController.swift */,
+				278FBD511DC1763700C73C89 /* ImageViewController.swift */,
+				27FB87AA1E252A38006C7729 /* DeveloperInfoViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		278FBD221DC1054A00C73C89 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				278FBD201DC1054600C73C89 /* EventsCollectionViewCell.swift */,
+				278FBD471DC1588700C73C89 /* NotificationTableViewCell.swift */,
+				278FBD4D1DC1708600C73C89 /* GalleryCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		278FBD231DC105CD00C73C89 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				278FBD291DC105E600C73C89 /* OpenSans-Light.ttf */,
+				278FBD2B1DC105E600C73C89 /* OpenSans-Regular.ttf */,
+				278FBD2C1DC105E600C73C89 /* OpenSans-Semibold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		278FBD421DC148BF00C73C89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				278FBD431DC148DF00C73C89 /* Event.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A28C74A31ABF942A5241CEF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F20D22E982C6ACF8B77B088 /* Pods-itukisfestivali.debug.xcconfig */,
+				96575E53CBE457CD1ABE7951 /* Pods-itukisfestivali.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA59A07DFBD69AA3BF1A6482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977B3808BB8F17AEBC70773F /* Pods_itukisfestivali.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278FBD061DC0FBBA00C73C89 /* itukisfestivali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278FBD191DC0FBBA00C73C89 /* Build configuration list for PBXNativeTarget "itukisfestivali" */;
+			buildPhases = (
+				0A8CAA7843ACB0CCC62B899E /* [CP] Check Pods Manifest.lock */,
+				278FBD031DC0FBBA00C73C89 /* Sources */,
+				278FBD041DC0FBBA00C73C89 /* Frameworks */,
+				278FBD051DC0FBBA00C73C89 /* Resources */,
+				98D468190F78AD50393700DF /* [CP] Embed Pods Frameworks */,
+				12FA5E019ADD4AF540D4466B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = itukisfestivali;
+			productName = itukisfestivali;
+			productReference = 278FBD071DC0FBBA00C73C89 /* itukisfestivali.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278FBCFF1DC0FBBA00C73C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = efehelvaci;
+				TargetAttributes = {
+					278FBD061DC0FBBA00C73C89 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NG2H4EFXTS;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 278FBD021DC0FBBA00C73C89 /* Build configuration list for PBXProject "itukisfestivali" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 278FBCFE1DC0FBBA00C73C89;
+			productRefGroup = 278FBD081DC0FBBA00C73C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278FBD061DC0FBBA00C73C89 /* itukisfestivali */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278FBD051DC0FBBA00C73C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278FBD501DC1708600C73C89 /* GalleryCollectionViewCell.xib in Resources */,
+				278FBD151DC0FBBA00C73C89 /* LaunchScreen.storyboard in Resources */,
+				278FBD361DC105E600C73C89 /* OpenSans-Semibold.ttf in Resources */,
+				278FBD121DC0FBBA00C73C89 /* Assets.xcassets in Resources */,
+				278FBD4A1DC1588700C73C89 /* NotificationTableViewCell.xib in Resources */,
+				278FBD101DC0FBBA00C73C89 /* Main.storyboard in Resources */,
+				278FBD331DC105E600C73C89 /* OpenSans-Light.ttf in Resources */,
+				27A7D7A51E2BF83D0081131A /* GoogleService-Info.plist in Resources */,
+				278FBD351DC105E600C73C89 /* OpenSans-Regular.ttf in Resources */,
+				278FBD3F1DC1379B00C73C89 /* EventCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A8CAA7843ACB0CCC62B899E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12FA5E019ADD4AF540D4466B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-itukisfestivali/Pods-itukisfestivali-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98D468190F78AD50393700DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-itukisfestivali/Pods-itukisfestivali-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278FBD031DC0FBBA00C73C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278FBD411DC143BD00C73C89 /* Constants.swift in Sources */,
+				278FBD461DC151A000C73C89 /* Helper.swift in Sources */,
+				278FBD521DC1763700C73C89 /* ImageViewController.swift in Sources */,
+				278FBD0D1DC0FBBA00C73C89 /* MainPageViewController.swift in Sources */,
+				278FBD0B1DC0FBBA00C73C89 /* AppDelegate.swift in Sources */,
+				278FBD491DC1588700C73C89 /* NotificationTableViewCell.swift in Sources */,
+				27FB87AB1E252A38006C7729 /* DeveloperInfoViewController.swift in Sources */,
+				278FBD391DC105FC00C73C89 /* ScrollPager.swift in Sources */,
+				278FBD441DC148DF00C73C89 /* Event.swift in Sources */,
+				278FBD4F1DC1708600C73C89 /* GalleryCollectionViewCell.swift in Sources */,
+				278FBD211DC1054600C73C89 /* EventsCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		278FBD0E1DC0FBBA00C73C89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278FBD0F1DC0FBBA00C73C89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		278FBD131DC0FBBA00C73C89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278FBD141DC0FBBA00C73C89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		278FBD171DC0FBBA00C73C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		278FBD181DC0FBBA00C73C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278FBD1A1DC0FBBA00C73C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F20D22E982C6ACF8B77B088 /* Pods-itukisfestivali.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = itukisfestivali/itukisfestivali.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Efe Helvaci (NG2H4EFXTS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NG2H4EFXTS;
+				INFOPLIST_FILE = itukisfestivali/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efehelvaci.itukisfestivali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		278FBD1B1DC0FBBA00C73C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96575E53CBE457CD1ABE7951 /* Pods-itukisfestivali.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = itukisfestivali/itukisfestivali.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Efe Helvaci (NG2H4EFXTS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NG2H4EFXTS;
+				INFOPLIST_FILE = itukisfestivali/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efehelvaci.itukisfestivali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278FBD021DC0FBBA00C73C89 /* Build configuration list for PBXProject "itukisfestivali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278FBD171DC0FBBA00C73C89 /* Debug */,
+				278FBD181DC0FBBA00C73C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278FBD191DC0FBBA00C73C89 /* Build configuration list for PBXNativeTarget "itukisfestivali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278FBD1A1DC0FBBA00C73C89 /* Debug */,
+				278FBD1B1DC0FBBA00C73C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278FBCFF1DC0FBBA00C73C89 /* Project object */;
+}

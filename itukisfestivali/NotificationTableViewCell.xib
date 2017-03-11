@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="notificationCell" rowHeight="80" id="KGk-i7-Jjw" customClass="NotificationTableViewCell" customModule="itukisfestivali" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="378" height="56"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eşşeğin zikindeki kayışlar yarın başlıyor!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aj9-VL-eee">
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Aj9-VL-eee" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="1Yg-KG-Yon"/>
+                    <constraint firstAttribute="bottom" secondItem="Aj9-VL-eee" secondAttribute="bottom" constant="8" id="G6w-Jk-F5O"/>
+                    <constraint firstItem="Aj9-VL-eee" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ZgR-za-2Ei"/>
+                    <constraint firstAttribute="trailing" secondItem="Aj9-VL-eee" secondAttribute="trailing" constant="8" id="bkf-Vt-pqv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="notificationLabel" destination="Aj9-VL-eee" id="ZTY-I3-Qhy"/>
+            </connections>
+            <point key="canvasLocation" x="54" y="58.5"/>
+        </tableViewCell>
+    </objects>
+</document>
